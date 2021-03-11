@@ -1,9 +1,5 @@
-// string d'origine
-
-const originalString = "Bonjour, je suis Sofiane."
-
-const newString = originalString.replace('Sofiane', 'Guillaume')
-
-console.log(newString)
-
-// méthode valide
+let str = 'Bonjour, je suis Sofiane.'
+const FirstName = 'Henri'
+str = str.replace('Sofiane', FirstName)
+//console.log(str.replace('Sofiane', FirstName))
+console.log(str)

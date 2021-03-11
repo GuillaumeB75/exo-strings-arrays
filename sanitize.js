@@ -1,7 +1,7 @@
-let str = '\n\n\t\t    AlIcE eT bOb EsSaYeNt De CoMmUnIqUeR sEcReTeMeNt, MaIs EvE vEiLlE  \n\n '
+let str =
+  '\n\n\t\t    AlIcE eT bOb EsSaYeNt De CoMmUnIqUeR sEcReTeMeNt, MaIs EvE vEiLlE  \n\n ';
 
+const trimmed = str.trim();
 
-
-console.log(str.trim().toLowerCase())
-
-console.log(str.trim().toUpperCase())
+let newTxt = trimmed.toLowerCase();
+console.log(newTxt);
